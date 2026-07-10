@@ -1,9 +1,5 @@
-// =========================================================
 // GOOGLE FORM LINK
-// Paste your Google Form link here once the registration
-// committee shares it (e.g. from forms.gle). Both buttons
-// on the page will use it automatically.
-// =========================================================
+// Both buttons on the page will use it automatically.
 const GOOGLE_FORM_URL = "";
 
 function wireRegisterButton(btn, note) {
@@ -39,7 +35,7 @@ revealEls.forEach((el) => revealObserver.observe(el));
 // =========================================================
 // COUNTDOWN TO EVENT
 // =========================================================
-const EVENT_DATE = new Date("2026-07-20T08:30:00+08:00");
+const EVENT_DATE = new Date("2026-07-20T08:30:00+08:00");  // 20 July 2026 - 0830H
 
 function updateCountdown() {
   const days = document.getElementById("cd-days");
