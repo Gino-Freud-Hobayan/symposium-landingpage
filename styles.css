@@ -104,7 +104,7 @@ h1 {
   box-shadow: var(--shadow-sm);
   white-space: nowrap;
 }
-.chip-green { background: var(--green); }
+.chip-purple { background: var(--purple); color: #fff; }
 .chip-yellow { background: var(--yellow); }
 .chip-pink { background: var(--pink); color: #fff; }
 
@@ -149,7 +149,7 @@ h1 {
   letter-spacing: -0.01em;
   font-size: 1.05rem;
   color: #fff;
-  background: var(--pink);
+  background: var(--purple);
   padding: 15px 40px;
   border-radius: 12px;
   border: var(--border);
@@ -278,8 +278,6 @@ h1 {
   margin: 12px 0 10px;
 }
 .cta p { color: var(--ink); opacity: 0.75; margin: 0 0 26px; font-size: 0.9rem; }
-.cta .btn { background: var(--purple); box-shadow: 6px 6px 0 var(--ink); }
-.cta .btn:hover { box-shadow: 9px 9px 0 var(--ink); }
 
 .note {
   margin-top: 16px;
