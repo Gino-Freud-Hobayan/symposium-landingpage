@@ -1,6 +1,6 @@
 // GOOGLE FORM LINK
 // Both buttons on the page will use it automatically.
-const GOOGLE_FORM_URL = "";
+const GOOGLE_FORM_URL = "https://forms.gle/pakazqcb1RFGLNRr5";
 
 function wireRegisterButton(btn, note) {
   if (!btn) return;
